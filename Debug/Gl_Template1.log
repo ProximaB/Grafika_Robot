@@ -1,0 +1,28 @@
+﻿Build started 2015-02-03 12:17:24.
+     1>Project "C:\Users\Krzysiek\Desktop\V semestr\Wigry\grafika\strzalki\Gl_Template1\Gl_Template1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Gl_template.c
+         Gl_template.c
+     1>c:\users\krzysiek\desktop\v semestr\wigry\grafika\strzalki\gl_template1\gl_template.c(201): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\krzysiek\desktop\v semestr\wigry\grafika\strzalki\gl_template1\gl_template.c(243): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\krzysiek\desktop\v semestr\wigry\grafika\strzalki\gl_template1\gl_template.c(343): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\krzysiek\desktop\v semestr\wigry\grafika\strzalki\gl_template1\gl_template.c(355): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\krzysiek\desktop\v semestr\wigry\grafika\strzalki\gl_template1\gl_template.c(397): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\krzysiek\desktop\v semestr\wigry\grafika\strzalki\gl_template1\gl_template.c(409): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\krzysiek\desktop\v semestr\wigry\grafika\strzalki\gl_template1\gl_template.c(457): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\krzysiek\desktop\v semestr\wigry\grafika\strzalki\gl_template1\gl_template.c(472): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\krzysiek\desktop\v semestr\wigry\grafika\strzalki\gl_template1\gl_template.c(486): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\krzysiek\desktop\v semestr\wigry\grafika\strzalki\gl_template1\gl_template.c(498): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\krzysiek\desktop\v semestr\wigry\grafika\strzalki\gl_template1\gl_template.c(510): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\krzysiek\desktop\v semestr\wigry\grafika\strzalki\gl_template1\gl_template.c(1116): warning C4244: '=' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\krzysiek\desktop\v semestr\wigry\grafika\strzalki\gl_template1\gl_template.c(1117): warning C4244: '=' : conversion from 'int' to 'GLfloat', possible loss of data
+       Link:
+         D:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\Gl_Template1.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\Gl_Template1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\Gl_Template1.lib" /MACHINE:X86 /SAFESEH .\Debug\RESOURCE.res
+         .\Debug\Gl_template.obj
+         Gl_Template1.vcxproj -> C:\Users\Krzysiek\Desktop\V semestr\Wigry\grafika\strzalki\Gl_Template1\.\Debug\Gl_Template1.exe
+     1>Done Building Project "C:\Users\Krzysiek\Desktop\V semestr\Wigry\grafika\strzalki\Gl_Template1\Gl_Template1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.24
